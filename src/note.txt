@@ -1,0 +1,16 @@
+class Person{
+  constructor(name, skin){
+    this.name = name;
+    this.skin = skin;
+  }
+
+  Info(){
+    alert(`${this.name} is of ${skin} skin`)
+  }
+}
+
+const p1 = new Person("sade", "ebony")
+
+alert(p1.name)
+
+export default Person
